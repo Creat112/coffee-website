@@ -412,14 +412,10 @@ z-index: 1;
 /* ✅ متجاوب للموبايل */
 @media (max-width: 768px) {
   .products-container {
-    grid-template-columns: 1fr; /* عنصر واحد في الصف */
+    grid-template-columns: 1fr; 
   }
 }
-/* =========================
-   ✅ MEDIA QUERIES (Responsive Design)
-   ========================= */
 
-/* ======== موبايل (شاشات صغيرة أقل من 600px) ======== */
 @media (max-width: 600px) {
 
   header {
@@ -516,7 +512,7 @@ z-index: 1;
   }
 }
 
-/* ======== تابلت (من 601px إلى 992px) ======== */
+
 @media (max-width: 992px) {
 
   header {
@@ -578,7 +574,7 @@ z-index: 1;
   }
 }
 
-/* ======== شاشات بين 992px و 1200px ======== */
+
 @media (max-width: 1200px) {
   .about-container {
     padding: 3rem 5rem;
@@ -597,7 +593,7 @@ z-index: 1;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-/* ======== شاشات تابلت لاندسكيب 1024px ======== */
+
 @media (max-width: 1024px) {
 
   header {
@@ -643,7 +639,7 @@ z-index: 1;
   }
 
   .about-box {
-    width: 45%;
+    width: 70%;
     height: auto;
     padding: 2rem;
   }
@@ -683,23 +679,24 @@ z-index: 1;
     font-size: 18px;
   }
 }
-/* إزالة خلفية السكرول */
+
 ::-webkit-scrollbar{
   width: 1rem;
-  background: transparent; /* بدون خلفية */
+  background: transparent; 
 }
 
-/* شكل الجزء المتحرك (الزر أو الإبهام) */
+/
 ::-webkit-scrollbar-thumb {
-  background-color: #6f4e37; /* لون القهوة */
+  background-color: #6f4e37; 
   border-radius: 25%;
  
-   /* بوكس شادو أخضر */
+ 
 }
 
-/* ممكن تضيف تأثير hover بسيط */
+
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #8b5e3c; /* أفتح شوية عند المرور */
+  background-color: #8b5e3c;
 }
+
 
 
