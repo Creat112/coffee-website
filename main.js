@@ -35,7 +35,7 @@ data.forEach(item => {
   card.classList.add("card");
 
   card.innerHTML = `
-    <img src="images/products/${item.image}" alt="${item.name}" loading="lazy">
+    <img src="${item.image}" alt="${item.name}" loading="lazy">
     <h1>${item.name}</h1>
     <p>${item.price} EGP</p>
     <button class="order-btn">Order Now</button>
@@ -43,4 +43,5 @@ data.forEach(item => {
 
   container.appendChild(card);
 });
+
 
