@@ -639,7 +639,7 @@ z-index: 1;
   }
 
   .about-box {
-    width: 70%;
+    width: 100%;
     height: auto;
     padding: 2rem;
   }
@@ -697,6 +697,7 @@ z-index: 1;
 ::-webkit-scrollbar-thumb:hover {
   background-color: #8b5e3c;
 }
+
 
 
 
